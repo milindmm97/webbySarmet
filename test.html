@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<title>
+  Contact Us
+</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+
+ p {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   margin-left: 20px;
+
+ }
+ 
+ input[type=text] {
+    margin-left: 20px;
+    width: 20%;
+    padding: 9px 9px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=tel] {
+   
+    width: 20%;
+    padding: 9px 9px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#query {
+  width: 30%;
+    padding: 30px 30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.button3 {
+                  padding: 15px 40px;
+                  font-size: 24px;
+                  text-align: center;
+                  cursor: pointer;
+                  outline: none;
+                  color: rgb(255, 255, 255);
+                  background-color: rgb(0, 0, 0);
+                  font-size: 20px;
+                  font: 300;
+                  
+                  border: none;
+                }
+#sarmet_logo{
+                        padding: 0px 20px
+                }
+
+.button3:hover {
+                        background-color: #ffffff;
+                        color: black;
+                        border-radius: 10px;
+                        font-size: 20px;
+                }
+                
+                .button3:active {
+                  background-color: #ffffff;
+                  box-shadow: 0 5px #666;
+                  transform: translateY(4px);
+                  font-size: 20px;
+                }
+
+.header {
+  padding: 10px 0px;
+  background: rgb(0, 0, 0);
+
+  
+ 
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1 {
+  font: 500;
+  text-align: center;
+
+
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="header" id="myHeader">
+        <img src="C:\Users\Milind\Desktop\TIE FINALS\sarmetlogoedit.jpeg" id="sarmet_logo" style="width: 240px;height: 50px;">
+        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">What is SARmet</button>
+        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">Where Can I GEt SARmet</button>
+        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">About Us</button>
+        </a>
+        </a>
+        </a>
+</div>
+
+<div class="jumbotron text-center">
+    <h1>Contact Us</h1>
+     </div>
+
+<div class="container-fluid">
+  <!--  <form action="action_page.php"> -->
+  
+      <label for="name">Name</label> <br>
+      <input type="text" id="fname" name="name" placeholder="Name"> <br>
+  
+      
+      <label for="country">Email</label> <br>
+      <input type="text" id="fname" name="name" placeholder="Email"> <br>
+  
+      <label for="number">Phone Number</label> <br>
+      <input type="tel" id="number" name="number" placeholder="Phone"> <br>
+
+      <label for="query">Your Query </label> <br>
+      <input type="text" id="query" name="query" > <br>
+  
+      <input type="submit" value="Submit"> 
+  
+    </form>
+  </div> 
+
+
+<br>
+<br>
+
+<div>
+    <p>    
+        Milind M Manoj <br>
+        +91 9482057142 <br>
+        milindmmanoj@gmail.com <br>  
+        
+      </p>
+  </div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAWgNKrD4Y7wioiDoz2FEAbkimwZBOIvHo",
+    authDomain: "sarmetcontact.firebaseapp.com",
+    databaseURL: "https://sarmetcontact.firebaseio.com",
+    projectId: "sarmetcontact",
+    storageBucket: "sarmetcontact.appspot.com",
+    messagingSenderId: "560994085232"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</body>
+</html>
