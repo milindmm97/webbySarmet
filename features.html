@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<title>
+<html><head><title>
   Product
 </title>
-<head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,10 +9,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
+
+
  p {
    font-family: 'Times New Roman', Times, serif;
    font-size: 20px;
    margin-left: 20px;
+
  }
  
  input[type=text] {
@@ -36,7 +37,11 @@ input[type=tel] {
     padding: 30px 30px;
     margin: 8px 0;
     box-sizing: border-box;
+
 }
+
+
+
 .button3 {
                   padding: 15px 40px;
                   font-size: 24px;
@@ -53,6 +58,7 @@ input[type=tel] {
 #sarmet_logo{
                         padding: 0px 20px
                 }
+
 .button3:hover {
                         background-color: #ffffff;
                         color: black;
@@ -66,70 +72,202 @@ input[type=tel] {
                   transform: translateY(4px);
                   font-size: 20px;
                 }
-.header {
+
+.navbar {
   padding: 10px 0px;
   background: rgb(0, 0, 0);
-  
- 
+
 }
+
+
+
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
+
 h1 {
-  font: 500;
+  
   text-align: center;
+
+
 }
+h1 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: rgb(255,255,255);
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h3 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: rgb(255,255,255);
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+
 #name{
   width:100%;
 }
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
 
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+  
+.background {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("back_road1.png");
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+  
+.margin{margin-top:75px;}
+
+img{border-radius:25px;}
 </style>
 </head>
-<div class="header" id="myHeader">
-        <img src="F:\webbySarmet\sarmetlogoedit.jpeg" id="sarmet_logo" style="width: 240px;height: 50px;">
-        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">What is SARmet</button>
-        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">Where Can I GEt SARmet</button>
-        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">About Us</button>
-        </a>
-        </a>
-        </a>
-</div>
+
+
 <body>
 
+<div class="background">
+<div class="container">
 
 
+<div class="navbar navbar-default navbar-fixed-top" id="myHeader">
+        <img src="F:\webbySarmet\sarmetlogoedit.jpeg" id="sarmet_logo" style="width: 240px;height: 50px;">
+        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">What is SARmet</a>
+        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">Where Can I GEt SARmet</a>
+        <a href="https://www.youtube.com" class="button3" style="text-decoration:none;float: right">About Us</a>
+        
+</div>
 
+<br><br>
 
-
-
-
-<div class="landscape">
-    <div class="row"> 
+    <div class="row margin"> 
         <div class="col-sm-4">
-            <h1>
-                test<br>
-                test<br>
-                test<br>
-
-            </h1>
+                <div class="text-center"><h1>Product Features</h1> </div><br>
+                <h3>
+                <ul>
+                        <li>TI AM3358 1GHz ARM Cortex-A8 processor</li> <br>
+                        <li>TI WiLink 8 1835MOD WiFi smart module</li> <br>
+                        <li>TI DLP4710 (.47 1080p) chipset for Augmented Reality Display</li><br>
+                        <li>Wide angle rear camera with specially designed visor for 360° feild of view </li>
+                      </ul> 
+                    </h3>
+                      
+                  
         </div>     
     
-        <div class="col-sm-8"><img src="F:\webbySarmet\features\labels.png" ></div>
+        <div class="col-sm-8" margin-left="40%"><img src="labels_new.png" width="800px" height="500px"></div>
     </div>
+<div class="row margin">
+<h1>Indigenous Optical System for Head Mounted Display:</h1> 
+</div>
+ <br>
+ 
+ <div class="row">
+ <div class="col-sm-8">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
+	<div class="carousel-inner" role="listbox">
+
+      <div class="item active left">
+        <img src="Optical.png">
+        <div class="carousel-caption">
+          <h3>content</h3>
+          <p>if u want content</p>
+        </div>
+      </div>
+
+      <div class="item next left">
+        <img src="optical2.png">
+        <div class="carousel-caption">
+          <h3>content</h3>
+          <p>if u want content</p>
+        </div>
+      </div>
+    
+
+
+      <div class="item">
+        <img src="optical3.jpg">
+        <div class="carousel-caption">
+          <h3>content</h3>
+          <p>if u want content</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+ </div>
+ </div>
+ 
+ <div class="col-sm-4 center-text">
+ <h3>This indigenous optical design helped build a cheap and affordable solution for a See Through Head Mounted Display. 
+ SARmet prototype shown has a proof of concept design of this Optical system. 
+ Our Team is close to miniaturizing this setup to be integrated into a product </h3></div>
+</div>
+
+<div class="row margin">
+<h1>Intelligent Rear Camera</h1> 
+</div>
+
+<div class="row">
+ <div class="col-sm-4 center-text"><h3>SARmet will feature a wide angle 120 degree FOV rear camera. 
+ This camera streams the rear view to the Head Mounted Display and also warns the rider regarding any approaching speeding vehicles.
+ This helps keep the rider situationally aware. </h3>
+ </div>
+ <div class="col-sm-8"><img src="rear2.png" style="width:100%"></div>
 </div>
 
 
+<div class="row margin">
+<h1>Connectivity</h1> 
+</div>
 
+<div class="row">
+ 
+ <div class="col-sm-8"><img src="rear2.png" style="width:100%"></div>
+ 
+ <div class="col-sm-4 center-text"><h3>SARmet has a dedicated mobile app which connects to SARmet via Wifi and Bluetooth.
+ Via this connection,
+ SARmet helps you manage your calls and messages, 
+ get your navigational information all in your field of view via the Head Mounted Display  </h3>
+ </div>
+</div>
+<br>
+<br>
+</div>
+</div>
 <script>
 window.onscroll = function() {myFunction()};
+
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
+
 function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
@@ -140,5 +278,5 @@ function myFunction() {
 </script>
 
 
-</body>
-</html>
+
+</body></html>
