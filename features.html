@@ -11,13 +11,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-
-
  p {
    font-family: 'Times New Roman', Times, serif;
    font-size: 20px;
    margin-left: 20px;
-
  }
  
  input[type=text] {
@@ -39,11 +36,7 @@ input[type=tel] {
     padding: 30px 30px;
     margin: 8px 0;
     box-sizing: border-box;
-
 }
-
-
-
 .button3 {
                   padding: 15px 40px;
                   font-size: 24px;
@@ -60,7 +53,6 @@ input[type=tel] {
 #sarmet_logo{
                         padding: 0px 20px
                 }
-
 .button3:hover {
                         background-color: #ffffff;
                         color: black;
@@ -74,51 +66,28 @@ input[type=tel] {
                   transform: translateY(4px);
                   font-size: 20px;
                 }
-
 .header {
   padding: 10px 0px;
   background: rgb(0, 0, 0);
-
+  
+ 
 }
-
-
-
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
 h1 {
-  
+  font: 500;
   text-align: center;
-
-
 }
-h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-weight: 600;
-      margin-bottom: 30px;
-  }
-  h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      color: #303030;
-      font-weight: 400;
-      margin-bottom: 30px;
-  }
-
 #name{
   width:100%;
 }
-
-
-
-
-
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 </style>
 </head>
@@ -143,20 +112,15 @@ h2 {
 <div class="landscape">
     <div class="row"> 
         <div class="col-sm-4">
-                <div class="jumbotron text-center" ><h1>Product Features</h1> </div><br>
-                <h3>
-                <ul>
-                        <li>TI AM3358 1GHz ARM Cortex-A8 processor</li> <br>
-                        <li>TI WiLink 8 1835MOD WiFi smart module</li> <br>
-                        <li>TI DLP4710 (.47 1080p) chipset for Augmented Reality Display</li><br>
-                        <li>Wide angle rear camera with specially designed visor for 360° feild of view </li>
-                      </ul> 
-                    </h3>
-                      
-                  
+            <h1>
+                test<br>
+                test<br>
+                test<br>
+
+            </h1>
         </div>     
     
-        <div class="col-sm-8"margin-left=40%><img src="F:\webbySarmet\features\labels_new.png" width="800x" height="500px" ></div>
+        <div class="col-sm-8"><img src="F:\webbySarmet\features\labels.png" ></div>
     </div>
 </div>
 
@@ -164,10 +128,8 @@ h2 {
 
 <script>
 window.onscroll = function() {myFunction()};
-
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
-
 function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
